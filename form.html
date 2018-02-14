@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <form method="POST" action="">
+    <p>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" autofocus>
+      <span class="hint">por exemplo, nome@dominio.com</span>
+      <span class="error">Preencha o e-mail corretamente.</span>
+    </p>
+    <p>
+      <label for="subject">Assunto:</label>
+      <input type="text" id="subject">
+      <span class="hint">Qual o seu problema ou ideia</span>
+    </p>
+    <p>
+      <label for="content">Mensagem:</label>
+      <textarea id="content"></textarea>
+      <span class="hint">Escreva aqui a sua mensagem, com um limite de 500 caracteres.</span>
+    </p>
+    <button>Enviar mensagem</button>
+  </form>
+</body>
+
+</html>

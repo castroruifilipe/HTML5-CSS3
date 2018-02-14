@@ -24,7 +24,7 @@ h1 a:hover {
     width: 660px;
 }
 
-.article {
+article {
     background-color: #FFF;
     border: 1px solid #CCC;
     border-color: #CCC #999 #999 #CCC;
@@ -32,29 +32,29 @@ h1 a:hover {
     padding: 10px;
 }
 
-.article h2 {
+article h2 {
     border-bottom: 1px dashed #7E9F19;
     margin: 0;
 }
 
-.article a {
+article a {
     color: #2C88A7;
     font-weight: bold;
 }
 
-.article img {
+article img {
     border: 1px solid #7E9F19;
     float: left;
     margin: 10px 10px 0 0;
     padding: 2px;
 }
 
-.footer {
+footer {
     font-size: 12px;
     text-align: center;
 }
 
-.aside {
+aside {
     background-color: #FFFBE4;
     border: 1px solid #C9BC8F;
     float: right;
@@ -62,12 +62,12 @@ h1 a:hover {
     width: 260px;
 }
 
-.aside h3 {
+aside h3 {
     font-size: 14px;
     margin-top: 0;
 }
 
-.aside ol {
+aside ol {
     font-size: 12px;
 }
 
