@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="template.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <section class="signup">
+        <form>
+          <h2>Registe-se agora!</h2>
+          <p>
+            <label for="account_email">E-mail</label>
+            <input type="email" id="account_email">
+          </p>
+          <p>
+            <label for="account_password">Palavra-passe</label>
+            <input type="password" id="account_password">
+          </p>
+          <p>
+            <label for="account_password_confirmation">Confirme a palavra-passe</label>
+            <input type="password" id="account_password_confirmation">
+          </p>
+          <p>
+            <button>Enviar!</button>
+          </p>
+          <a href="javascript:;" class="toggle">Já estou registado no site</a>
+        </form>
+      </section>
+      <section class="signin">
+        <form>
+          <h2>Entrar no site</h2>
+          <p>
+            <label for="user_email">E-mail</label>
+            <input type="email" id="user_email">
+          </p>
+          <p>
+            <label for="user_password">Palavra-passe</label>
+            <input type="password" id="user_password">
+          </p>
+          <p>
+            <button>Enviar!</button>
+          </p>
+          <a href="javascript:;" class="toggle">Quero registar-me!</a>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    jQuery(function ($) {
+      $('section').on('click', 'a', function () {
+        $('.card').toggleClass('flipped');
+      })
+    });
+  </script>
+</body>
+
+</html>

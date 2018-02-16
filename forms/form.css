@@ -23,14 +23,16 @@ textarea {
     border-radius: 3px;
     border: 1px solid #CCC;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    display: none;
+    display: inline-block;
     font-size: 0.8em;
-    margin-left: 20px;
+    opacity: 0;
     padding: 3px;
+    transition: all 0.5s;
 }
 
 input:focus + .hint, textarea:focus + .hint {
-    display: inline-block;
+    margin-left: 20px;
+    opacity: 1;
 }
 
 .error {
